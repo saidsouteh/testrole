@@ -36,5 +36,5 @@ scenario:
      - side_effect
      - verify
      - cleanup
-#     - destroy
+     - destroy
 
