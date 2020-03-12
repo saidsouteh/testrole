@@ -15,7 +15,7 @@ def test_pkg(host, pkg):
     assert package.is_installed
 
 @pytest.mark.parametrize('svc', [
-  'httpdd'
+  'httpd'
 ])
 
 def test_svc(host, svc):
