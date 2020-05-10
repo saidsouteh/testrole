@@ -1,0 +1,384 @@
+# HELP keycloak_user_event_REMOVE_TOTP_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_REMOVE_TOTP_ERROR counter
+# HELP keycloak_user_event_CUSTOM_REQUIRED_ACTION_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_CUSTOM_REQUIRED_ACTION_ERROR counter
+# HELP keycloak_user_event_REMOVE_FEDERATED_IDENTITY_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_REMOVE_FEDERATED_IDENTITY_ERROR counter
+# HELP keycloak_user_event_UPDATE_TOTP Generic KeyCloak User event
+# TYPE keycloak_user_event_UPDATE_TOTP counter
+# HELP keycloak_user_event_REGISTER_NODE Generic KeyCloak User event
+# TYPE keycloak_user_event_REGISTER_NODE counter
+# HELP keycloak_user_event_INTROSPECT_TOKEN_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_INTROSPECT_TOKEN_ERROR counter
+# HELP keycloak_user_event_CLIENT_LOGIN_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_CLIENT_LOGIN_ERROR counter
+# HELP jvm_gc_collection_seconds Time spent in a given JVM garbage collector in seconds.
+# TYPE jvm_gc_collection_seconds summary
+jvm_gc_collection_seconds_count{gc="PS Scavenge",} 36.0
+jvm_gc_collection_seconds_sum{gc="PS Scavenge",} 0.703
+jvm_gc_collection_seconds_count{gc="PS MarkSweep",} 3.0
+jvm_gc_collection_seconds_sum{gc="PS MarkSweep",} 0.759
+# HELP keycloak_user_event_INVALID_SIGNATURE Generic KeyCloak User event
+# TYPE keycloak_user_event_INVALID_SIGNATURE counter
+# HELP keycloak_user_event_EXECUTE_ACTION_TOKEN Generic KeyCloak User event
+# TYPE keycloak_user_event_EXECUTE_ACTION_TOKEN counter
+# HELP keycloak_user_event_RESET_PASSWORD_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_RESET_PASSWORD_ERROR counter
+# HELP keycloak_admin_event_UPDATE Generic KeyCloak Admin event
+# TYPE keycloak_admin_event_UPDATE counter
+keycloak_admin_event_UPDATE{realm="ebk-realm",resource="REALM",} 1.0
+# HELP keycloak_user_event_UPDATE_PASSWORD Generic KeyCloak User event
+# TYPE keycloak_user_event_UPDATE_PASSWORD counter
+# HELP keycloak_user_event_SEND_IDENTITY_PROVIDER_LINK_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_SEND_IDENTITY_PROVIDER_LINK_ERROR counter
+# HELP keycloak_user_event_IDENTITY_PROVIDER_LINK_ACCOUNT Generic KeyCloak User event
+# TYPE keycloak_user_event_IDENTITY_PROVIDER_LINK_ACCOUNT counter
+# HELP keycloak_user_event_CLIENT_UPDATE Generic KeyCloak User event
+# TYPE keycloak_user_event_CLIENT_UPDATE counter
+# HELP keycloak_user_event_LOGOUT_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_LOGOUT_ERROR counter
+# HELP keycloak_user_event_EXECUTE_ACTIONS Generic KeyCloak User event
+# TYPE keycloak_user_event_EXECUTE_ACTIONS counter
+# HELP keycloak_user_event_CLIENT_INITIATED_ACCOUNT_LINKING Generic KeyCloak User event
+# TYPE keycloak_user_event_CLIENT_INITIATED_ACCOUNT_LINKING counter
+# HELP keycloak_admin_event_CREATE Generic KeyCloak Admin event
+# TYPE keycloak_admin_event_CREATE counter
+# HELP keycloak_user_event_CODE_TO_TOKEN_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_CODE_TO_TOKEN_ERROR counter
+# HELP keycloak_user_event_IDENTITY_PROVIDER_LOGIN Generic KeyCloak User event
+# TYPE keycloak_user_event_IDENTITY_PROVIDER_LOGIN counter
+# HELP keycloak_user_event_IDENTITY_PROVIDER_FIRST_LOGIN Generic KeyCloak User event
+# TYPE keycloak_user_event_IDENTITY_PROVIDER_FIRST_LOGIN counter
+# HELP keycloak_user_event_UNREGISTER_NODE_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_UNREGISTER_NODE_ERROR counter
+# HELP keycloak_user_event_VALIDATE_ACCESS_TOKEN Generic KeyCloak User event
+# TYPE keycloak_user_event_VALIDATE_ACCESS_TOKEN counter
+# HELP keycloak_user_event_REMOVE_TOTP Generic KeyCloak User event
+# TYPE keycloak_user_event_REMOVE_TOTP counter
+# HELP keycloak_user_event_VALIDATE_ACCESS_TOKEN_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_VALIDATE_ACCESS_TOKEN_ERROR counter
+# HELP keycloak_user_event_IDENTITY_PROVIDER_RESPONSE_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_IDENTITY_PROVIDER_RESPONSE_ERROR counter
+# HELP keycloak_user_event_CODE_TO_TOKEN Generic KeyCloak User event
+# TYPE keycloak_user_event_CODE_TO_TOKEN counter
+# HELP keycloak_user_event_IDENTITY_PROVIDER_FIRST_LOGIN_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_IDENTITY_PROVIDER_FIRST_LOGIN_ERROR counter
+# HELP keycloak_user_event_IDENTITY_PROVIDER_RESPONSE Generic KeyCloak User event
+# TYPE keycloak_user_event_IDENTITY_PROVIDER_RESPONSE counter
+# HELP keycloak_user_event_FEDERATED_IDENTITY_LINK Generic KeyCloak User event
+# TYPE keycloak_user_event_FEDERATED_IDENTITY_LINK counter
+# HELP keycloak_user_event_SEND_IDENTITY_PROVIDER_LINK Generic KeyCloak User event
+# TYPE keycloak_user_event_SEND_IDENTITY_PROVIDER_LINK counter
+# HELP keycloak_user_event_UPDATE_PROFILE_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_UPDATE_PROFILE_ERROR counter
+# HELP keycloak_request_duration Request duration
+# TYPE keycloak_request_duration histogram
+keycloak_request_duration_bucket{method="POST",route="/realms/ebk-realm/protocol/openid-connect/token",le="50.0",} 0.0
+keycloak_request_duration_bucket{method="POST",route="/realms/ebk-realm/protocol/openid-connect/token",le="100.0",} 0.0
+keycloak_request_duration_bucket{method="POST",route="/realms/ebk-realm/protocol/openid-connect/token",le="250.0",} 99.0
+keycloak_request_duration_bucket{method="POST",route="/realms/ebk-realm/protocol/openid-connect/token",le="500.0",} 100.0
+keycloak_request_duration_bucket{method="POST",route="/realms/ebk-realm/protocol/openid-connect/token",le="1000.0",} 100.0
+keycloak_request_duration_bucket{method="POST",route="/realms/ebk-realm/protocol/openid-connect/token",le="2000.0",} 100.0
+keycloak_request_duration_bucket{method="POST",route="/realms/ebk-realm/protocol/openid-connect/token",le="10000.0",} 100.0
+keycloak_request_duration_bucket{method="POST",route="/realms/ebk-realm/protocol/openid-connect/token",le="30000.0",} 100.0
+keycloak_request_duration_bucket{method="POST",route="/realms/ebk-realm/protocol/openid-connect/token",le="+Inf",} 100.0
+keycloak_request_duration_count{method="POST",route="/realms/ebk-realm/protocol/openid-connect/token",} 100.0
+keycloak_request_duration_sum{method="POST",route="/realms/ebk-realm/protocol/openid-connect/token",} 14771.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/admin-events",le="50.0",} 0.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/admin-events",le="100.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/admin-events",le="250.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/admin-events",le="500.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/admin-events",le="1000.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/admin-events",le="2000.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/admin-events",le="10000.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/admin-events",le="30000.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/admin-events",le="+Inf",} 1.0
+keycloak_request_duration_count{method="GET",route="/admin/realms/ebk-realm/admin-events",} 1.0
+keycloak_request_duration_sum{method="GET",route="/admin/realms/ebk-realm/admin-events",} 93.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/events",le="50.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/events",le="100.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/events",le="250.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/events",le="500.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/events",le="1000.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/events",le="2000.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/events",le="10000.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/events",le="30000.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/events",le="+Inf",} 1.0
+keycloak_request_duration_count{method="GET",route="/admin/realms/ebk-realm/events",} 1.0
+keycloak_request_duration_sum{method="GET",route="/admin/realms/ebk-realm/events",} 37.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms",le="50.0",} 2.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms",le="100.0",} 3.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms",le="250.0",} 3.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms",le="500.0",} 3.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms",le="1000.0",} 3.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms",le="2000.0",} 3.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms",le="10000.0",} 3.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms",le="30000.0",} 3.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms",le="+Inf",} 3.0
+keycloak_request_duration_count{method="GET",route="/admin/realms",} 3.0
+keycloak_request_duration_sum{method="GET",route="/admin/realms",} 105.0
+keycloak_request_duration_bucket{method="POST",route="/realms/master/protocol/openid-connect/token",le="50.0",} 1.0
+keycloak_request_duration_bucket{method="POST",route="/realms/master/protocol/openid-connect/token",le="100.0",} 1.0
+keycloak_request_duration_bucket{method="POST",route="/realms/master/protocol/openid-connect/token",le="250.0",} 1.0
+keycloak_request_duration_bucket{method="POST",route="/realms/master/protocol/openid-connect/token",le="500.0",} 2.0
+keycloak_request_duration_bucket{method="POST",route="/realms/master/protocol/openid-connect/token",le="1000.0",} 2.0
+keycloak_request_duration_bucket{method="POST",route="/realms/master/protocol/openid-connect/token",le="2000.0",} 2.0
+keycloak_request_duration_bucket{method="POST",route="/realms/master/protocol/openid-connect/token",le="10000.0",} 2.0
+keycloak_request_duration_bucket{method="POST",route="/realms/master/protocol/openid-connect/token",le="30000.0",} 2.0
+keycloak_request_duration_bucket{method="POST",route="/realms/master/protocol/openid-connect/token",le="+Inf",} 2.0
+keycloak_request_duration_count{method="POST",route="/realms/master/protocol/openid-connect/token",} 2.0
+keycloak_request_duration_sum{method="POST",route="/realms/master/protocol/openid-connect/token",} 476.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm",le="50.0",} 3.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm",le="100.0",} 3.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm",le="250.0",} 3.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm",le="500.0",} 3.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm",le="1000.0",} 3.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm",le="2000.0",} 3.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm",le="10000.0",} 3.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm",le="30000.0",} 3.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm",le="+Inf",} 3.0
+keycloak_request_duration_count{method="GET",route="/admin/realms/ebk-realm",} 3.0
+keycloak_request_duration_sum{method="GET",route="/admin/realms/ebk-realm",} 17.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/events/config",le="50.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/events/config",le="100.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/events/config",le="250.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/events/config",le="500.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/events/config",le="1000.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/events/config",le="2000.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/events/config",le="10000.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/events/config",le="30000.0",} 1.0
+keycloak_request_duration_bucket{method="GET",route="/admin/realms/ebk-realm/events/config",le="+Inf",} 1.0
+keycloak_request_duration_count{method="GET",route="/admin/realms/ebk-realm/events/config",} 1.0
+keycloak_request_duration_sum{method="GET",route="/admin/realms/ebk-realm/events/config",} 4.0
+# HELP keycloak_admin_event_ACTION Generic KeyCloak Admin event
+# TYPE keycloak_admin_event_ACTION counter
+# HELP keycloak_user_event_CLIENT_LOGIN Generic KeyCloak User event
+# TYPE keycloak_user_event_CLIENT_LOGIN counter
+# HELP keycloak_logins Total successful logins
+# TYPE keycloak_logins counter
+keycloak_logins{realm="ebk-realm",provider="keycloak",client_id="awb-ee-app",} 96.0
+# HELP jvm_buffer_pool_used_bytes Used bytes of a given JVM buffer pool.
+# TYPE jvm_buffer_pool_used_bytes gauge
+jvm_buffer_pool_used_bytes{pool="direct",} 1103732.0
+jvm_buffer_pool_used_bytes{pool="mapped",} 0.0
+# HELP jvm_buffer_pool_capacity_bytes Bytes capacity of a given JVM buffer pool.
+# TYPE jvm_buffer_pool_capacity_bytes gauge
+jvm_buffer_pool_capacity_bytes{pool="direct",} 1103731.0
+jvm_buffer_pool_capacity_bytes{pool="mapped",} 0.0
+# HELP jvm_buffer_pool_used_buffers Used buffers of a given JVM buffer pool.
+# TYPE jvm_buffer_pool_used_buffers gauge
+jvm_buffer_pool_used_buffers{pool="direct",} 33.0
+jvm_buffer_pool_used_buffers{pool="mapped",} 0.0
+# HELP keycloak_user_event_USER_INFO_REQUEST_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_USER_INFO_REQUEST_ERROR counter
+# HELP keycloak_user_event_IDENTITY_PROVIDER_RETRIEVE_TOKEN_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_IDENTITY_PROVIDER_RETRIEVE_TOKEN_ERROR counter
+# HELP keycloak_user_event_CLIENT_UPDATE_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_CLIENT_UPDATE_ERROR counter
+# HELP keycloak_user_event_IDENTITY_PROVIDER_LINK_ACCOUNT_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_IDENTITY_PROVIDER_LINK_ACCOUNT_ERROR counter
+# HELP keycloak_user_event_UPDATE_TOTP_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_UPDATE_TOTP_ERROR counter
+# HELP keycloak_user_event_IDENTITY_PROVIDER_LOGIN_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_IDENTITY_PROVIDER_LOGIN_ERROR counter
+# HELP keycloak_user_event_TOKEN_EXCHANGE Generic KeyCloak User event
+# TYPE keycloak_user_event_TOKEN_EXCHANGE counter
+# HELP keycloak_user_event_VERIFY_EMAIL Generic KeyCloak User event
+# TYPE keycloak_user_event_VERIFY_EMAIL counter
+# HELP keycloak_user_event_TOKEN_EXCHANGE_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_TOKEN_EXCHANGE_ERROR counter
+# HELP keycloak_user_event_REVOKE_GRANT_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_REVOKE_GRANT_ERROR counter
+# HELP keycloak_user_event_SEND_RESET_PASSWORD Generic KeyCloak User event
+# TYPE keycloak_user_event_SEND_RESET_PASSWORD counter
+# HELP keycloak_user_event_CUSTOM_REQUIRED_ACTION Generic KeyCloak User event
+# TYPE keycloak_user_event_CUSTOM_REQUIRED_ACTION counter
+# HELP keycloak_user_event_FEDERATED_IDENTITY_LINK_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_FEDERATED_IDENTITY_LINK_ERROR counter
+# HELP keycloak_user_event_RESTART_AUTHENTICATION_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_RESTART_AUTHENTICATION_ERROR counter
+# HELP keycloak_user_event_REFRESH_TOKEN_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_REFRESH_TOKEN_ERROR counter
+# HELP keycloak_user_event_SEND_VERIFY_EMAIL_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_SEND_VERIFY_EMAIL_ERROR counter
+# HELP keycloak_user_event_CLIENT_INFO_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_CLIENT_INFO_ERROR counter
+# HELP keycloak_user_event_CLIENT_REGISTER Generic KeyCloak User event
+# TYPE keycloak_user_event_CLIENT_REGISTER counter
+# HELP keycloak_user_event_REGISTER_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_REGISTER_ERROR counter
+# HELP keycloak_user_event_SEND_RESET_PASSWORD_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_SEND_RESET_PASSWORD_ERROR counter
+# HELP keycloak_user_event_IDENTITY_PROVIDER_POST_LOGIN Generic KeyCloak User event
+# TYPE keycloak_user_event_IDENTITY_PROVIDER_POST_LOGIN counter
+# HELP keycloak_user_event_EXECUTE_ACTION_TOKEN_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_EXECUTE_ACTION_TOKEN_ERROR counter
+# HELP keycloak_user_event_UPDATE_PROFILE Generic KeyCloak User event
+# TYPE keycloak_user_event_UPDATE_PROFILE counter
+# HELP keycloak_admin_event_DELETE Generic KeyCloak Admin event
+# TYPE keycloak_admin_event_DELETE counter
+# HELP jvm_info JVM version info
+# TYPE jvm_info gauge
+jvm_info{version="1.8.0_131-b12",vendor="Oracle Corporation",runtime="OpenJDK Runtime Environment",} 1.0
+# HELP keycloak_user_event_PERMISSION_TOKEN Generic KeyCloak User event
+# TYPE keycloak_user_event_PERMISSION_TOKEN counter
+# HELP keycloak_user_event_UPDATE_EMAIL Generic KeyCloak User event
+# TYPE keycloak_user_event_UPDATE_EMAIL counter
+# HELP keycloak_user_event_USER_INFO_REQUEST Generic KeyCloak User event
+# TYPE keycloak_user_event_USER_INFO_REQUEST counter
+# HELP keycloak_user_event_REFRESH_TOKEN Generic KeyCloak User event
+# TYPE keycloak_user_event_REFRESH_TOKEN counter
+# HELP keycloak_user_event_RESTART_AUTHENTICATION Generic KeyCloak User event
+# TYPE keycloak_user_event_RESTART_AUTHENTICATION counter
+# HELP keycloak_user_event_UNREGISTER_NODE Generic KeyCloak User event
+# TYPE keycloak_user_event_UNREGISTER_NODE counter
+# HELP keycloak_user_event_IMPERSONATE_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_IMPERSONATE_ERROR counter
+# HELP keycloak_user_event_CLIENT_REGISTER_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_CLIENT_REGISTER_ERROR counter
+# HELP keycloak_user_event_PERMISSION_TOKEN_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_PERMISSION_TOKEN_ERROR counter
+# HELP keycloak_user_event_IDENTITY_PROVIDER_RETRIEVE_TOKEN Generic KeyCloak User event
+# TYPE keycloak_user_event_IDENTITY_PROVIDER_RETRIEVE_TOKEN counter
+# HELP keycloak_user_event_LOGOUT Generic KeyCloak User event
+# TYPE keycloak_user_event_LOGOUT counter
+# HELP jvm_classes_loaded The number of classes that are currently loaded in the JVM
+# TYPE jvm_classes_loaded gauge
+jvm_classes_loaded 29187.0
+# HELP jvm_classes_loaded_total The total number of classes that have been loaded since the JVM has started execution
+# TYPE jvm_classes_loaded_total counter
+jvm_classes_loaded_total 29987.0
+# HELP jvm_classes_unloaded_total The total number of classes that have been unloaded since the JVM has started execution
+# TYPE jvm_classes_unloaded_total counter
+jvm_classes_unloaded_total 800.0
+# HELP keycloak_user_event_UPDATE_PASSWORD_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_UPDATE_PASSWORD_ERROR counter
+# HELP keycloak_user_event_CLIENT_INFO Generic KeyCloak User event
+# TYPE keycloak_user_event_CLIENT_INFO counter
+# HELP keycloak_user_event_IMPERSONATE Generic KeyCloak User event
+# TYPE keycloak_user_event_IMPERSONATE counter
+# HELP keycloak_user_event_INVALID_SIGNATURE_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_INVALID_SIGNATURE_ERROR counter
+# HELP keycloak_registrations_errors Total errors on registrations
+# TYPE keycloak_registrations_errors counter
+# HELP keycloak_user_event_INTROSPECT_TOKEN Generic KeyCloak User event
+# TYPE keycloak_user_event_INTROSPECT_TOKEN counter
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 125.34
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.589103952991E9
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 497.0
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 4096.0
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 2.621784064E9
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 6.99486208E8
+# HELP jvm_memory_bytes_used Used bytes of a given JVM memory area.
+# TYPE jvm_memory_bytes_used gauge
+jvm_memory_bytes_used{area="heap",} 1.66869024E8
+jvm_memory_bytes_used{area="nonheap",} 2.44881872E8
+# HELP jvm_memory_bytes_committed Committed (bytes) of a given JVM memory area.
+# TYPE jvm_memory_bytes_committed gauge
+jvm_memory_bytes_committed{area="heap",} 2.71056896E8
+jvm_memory_bytes_committed{area="nonheap",} 2.6247168E8
+# HELP jvm_memory_bytes_max Max (bytes) of a given JVM memory area.
+# TYPE jvm_memory_bytes_max gauge
+jvm_memory_bytes_max{area="heap",} 4.77626368E8
+jvm_memory_bytes_max{area="nonheap",} 1.59383552E9
+# HELP jvm_memory_bytes_init Initial bytes of a given JVM memory area.
+# TYPE jvm_memory_bytes_init gauge
+jvm_memory_bytes_init{area="heap",} 6.7108864E7
+jvm_memory_bytes_init{area="nonheap",} 2555904.0
+# HELP jvm_memory_pool_bytes_used Used bytes of a given JVM memory pool.
+# TYPE jvm_memory_pool_bytes_used gauge
+jvm_memory_pool_bytes_used{pool="Code Cache",} 6.2014592E7
+jvm_memory_pool_bytes_used{pool="Metaspace",} 1.6278752E8
+jvm_memory_pool_bytes_used{pool="Compressed Class Space",} 2.007976E7
+jvm_memory_pool_bytes_used{pool="PS Eden Space",} 7.918992E7
+jvm_memory_pool_bytes_used{pool="PS Survivor Space",} 4498384.0
+jvm_memory_pool_bytes_used{pool="PS Old Gen",} 8.318072E7
+# HELP jvm_memory_pool_bytes_committed Committed bytes of a given JVM memory pool.
+# TYPE jvm_memory_pool_bytes_committed gauge
+jvm_memory_pool_bytes_committed{pool="Code Cache",} 6.2455808E7
+jvm_memory_pool_bytes_committed{pool="Metaspace",} 1.76553984E8
+jvm_memory_pool_bytes_committed{pool="Compressed Class Space",} 2.3461888E7
+jvm_memory_pool_bytes_committed{pool="PS Eden Space",} 1.11673344E8
+jvm_memory_pool_bytes_committed{pool="PS Survivor Space",} 3.145728E7
+jvm_memory_pool_bytes_committed{pool="PS Old Gen",} 1.27926272E8
+# HELP jvm_memory_pool_bytes_max Max bytes of a given JVM memory pool.
+# TYPE jvm_memory_pool_bytes_max gauge
+jvm_memory_pool_bytes_max{pool="Code Cache",} 2.5165824E8
+jvm_memory_pool_bytes_max{pool="Metaspace",} 2.68435456E8
+jvm_memory_pool_bytes_max{pool="Compressed Class Space",} 1.073741824E9
+jvm_memory_pool_bytes_max{pool="PS Eden Space",} 1.14819072E8
+jvm_memory_pool_bytes_max{pool="PS Survivor Space",} 3.145728E7
+jvm_memory_pool_bytes_max{pool="PS Old Gen",} 3.58088704E8
+# HELP jvm_memory_pool_bytes_init Initial bytes of a given JVM memory pool.
+# TYPE jvm_memory_pool_bytes_init gauge
+jvm_memory_pool_bytes_init{pool="Code Cache",} 2555904.0
+jvm_memory_pool_bytes_init{pool="Metaspace",} 0.0
+jvm_memory_pool_bytes_init{pool="Compressed Class Space",} 0.0
+jvm_memory_pool_bytes_init{pool="PS Eden Space",} 1.6777216E7
+jvm_memory_pool_bytes_init{pool="PS Survivor Space",} 2621440.0
+jvm_memory_pool_bytes_init{pool="PS Old Gen",} 4.5088768E7
+# HELP keycloak_user_event_REMOVE_FEDERATED_IDENTITY Generic KeyCloak User event
+# TYPE keycloak_user_event_REMOVE_FEDERATED_IDENTITY counter
+# HELP keycloak_registrations Total registered users
+# TYPE keycloak_registrations counter
+# HELP keycloak_user_event_REGISTER_NODE_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_REGISTER_NODE_ERROR counter
+# HELP keycloak_user_event_RESET_PASSWORD Generic KeyCloak User event
+# TYPE keycloak_user_event_RESET_PASSWORD counter
+# HELP keycloak_user_event_CLIENT_DELETE Generic KeyCloak User event
+# TYPE keycloak_user_event_CLIENT_DELETE counter
+# HELP keycloak_user_event_UPDATE_EMAIL_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_UPDATE_EMAIL_ERROR counter
+# HELP keycloak_user_event_REVOKE_GRANT Generic KeyCloak User event
+# TYPE keycloak_user_event_REVOKE_GRANT counter
+# HELP keycloak_user_event_CLIENT_DELETE_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_CLIENT_DELETE_ERROR counter
+# HELP keycloak_response_errors Total number of error responses
+# TYPE keycloak_response_errors counter
+keycloak_response_errors{code="404",method="GET",route="/realms/ebk-realm/MetricsEventListener",} 2.0
+keycloak_response_errors{code="404",method="GET",route="/realms/ebk-realm/metrics/MetricsEndpoint",} 1.0
+keycloak_response_errors{code="404",method="GET",route="/realms/ebk-realm/MetricsEndpoint",} 2.0
+keycloak_response_errors{code="401",method="POST",route="/realms/ebk-realm/protocol/openid-connect/token",} 4.0
+# HELP keycloak_user_event_EXECUTE_ACTIONS_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_EXECUTE_ACTIONS_ERROR counter
+# HELP keycloak_user_event_IDENTITY_PROVIDER_POST_LOGIN_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_IDENTITY_PROVIDER_POST_LOGIN_ERROR counter
+# HELP keycloak_user_event_VERIFY_EMAIL_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_VERIFY_EMAIL_ERROR counter
+# HELP keycloak_failed_login_attempts Total failed login attempts
+# TYPE keycloak_failed_login_attempts counter
+keycloak_failed_login_attempts{realm="ebk-realm",provider="keycloak",error="invalid_user_credentials",client_id="awb-ee-app",} 4.0
+# HELP keycloak_user_event_CLIENT_INITIATED_ACCOUNT_LINKING_ERROR Generic KeyCloak User event
+# TYPE keycloak_user_event_CLIENT_INITIATED_ACCOUNT_LINKING_ERROR counter
+# HELP jvm_threads_current Current thread count of a JVM
+# TYPE jvm_threads_current gauge
+jvm_threads_current 121.0
+# HELP jvm_threads_daemon Daemon thread count of a JVM
+# TYPE jvm_threads_daemon gauge
+jvm_threads_daemon 72.0
+# HELP jvm_threads_peak Peak thread count of a JVM
+# TYPE jvm_threads_peak gauge
+jvm_threads_peak 312.0
+# HELP jvm_threads_started_total Started thread count of a JVM
+# TYPE jvm_threads_started_total counter
+jvm_threads_started_total 555.0
+# HELP jvm_threads_deadlocked Cycles of JVM-threads that are in deadlock waiting to acquire object monitors or ownable synchronizers
+# TYPE jvm_threads_deadlocked gauge
+jvm_threads_deadlocked 0.0
+# HELP jvm_threads_deadlocked_monitor Cycles of JVM-threads that are in deadlock waiting to acquire object monitors
+# TYPE jvm_threads_deadlocked_monitor gauge
+jvm_threads_deadlocked_monitor 0.0
+# HELP keycloak_user_event_SEND_VERIFY_EMAIL Generic KeyCloak User event
+# TYPE keycloak_user_event_SEND_VERIFY_EMAIL counter
