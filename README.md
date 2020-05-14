@@ -39,3 +39,11 @@ An optional section for the role authors to include contact information, or a we
 
 mvn archetype:generate -DarchetypeGroupId=io.gatling.highcharts -DarchetypeArtifactId=gatling-highcharts-maven-archetype
 
+
+select i.iduser,c.id,c.nrcompte from  compte c, INTERVENANT i , contrat co, COMPTE_PAR_CONTRAT  cpc  where i.NRCONTRATEBANKING = co.NRCONTRATEBANKING 
+and cpc.NRCONTRATEBANKING = co.NRCONTRATEBANKING and cpc.id = c.id and co.CODEOFFRE='2EB03' and co.etat='A'
+
+
+select i.iduser,c.id,c.nrcompte from  compte c, INTERVENANT i , contrat co, COMPTE_PAR_CONTRAT  cpc, SOUSCRIPTION_MODULE sm  where sm.CONTRAT_ID = co.NRCONTRATEBANKING and i.NRCONTRATEBANKING = co.NRCONTRATEBANKING 
+and cpc.NRCONTRATEBANKING = co.NRCONTRATEBANKING and cpc.id = c.id and co.CODEOFFRE='2EB02' and co.etat='A'and sm.MODULE = 'DOCNET';
+
