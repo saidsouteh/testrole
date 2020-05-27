@@ -42,3 +42,16 @@ mvn archetype:generate -DarchetypeGroupId=io.gatling.highcharts -DarchetypeArtif
 val scenario4 = scenario("Full GameKeeper tests“)
    .exec(session => session.set("TimestampFeeder",DateTimeFormat.forPattern("yyyy-MM-dd").print(DateTime.now()) 
    .exec(createPrivateEvent)
+   
+   
+  import java.util.Date
+import java.text.SimpleDateFormat
+
+object ISO_TIMESTAMP {
+  val isoFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+  def format( d: Date ) =
+    new SimpleDateFormat( isoFormat ).format( d )
+ override def toString = format( new Date() )
+}
+
+...exec( session => session.set( "CURRENT_DATE_TIME", ISO_TIMESTAMP ) )
