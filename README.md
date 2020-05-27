@@ -39,4 +39,6 @@ An optional section for the role authors to include contact information, or a we
 
 mvn archetype:generate -DarchetypeGroupId=io.gatling.highcharts -DarchetypeArtifactId=gatling-highcharts-maven-archetype
 
-
+val scenario4 = scenario("Full GameKeeper tests“)
+   .exec(session => session.set("TimestampFeeder",DateTimeFormat.forPattern("yyyy-MM-dd").print(DateTime.now()) 
+   .exec(createPrivateEvent)
